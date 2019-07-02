@@ -1,0 +1,16 @@
+id: home-item
+icon: Office/32x32/home.png
+fields:
+  pageTitle: Welcome to Sitecore JSS
+placeholders:
+  jss-header:
+  - id: shared-header
+  jss-main:
+  - componentName: EntryList
+    fields:
+      pageSize: 4
+  jss-footer:
+  - componentName: SearchBox
+  - componentName: NewestEntries
+  - componentName: MonthlyArchives
+  - id: footer-external-links

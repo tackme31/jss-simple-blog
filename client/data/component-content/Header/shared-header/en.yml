@@ -1,0 +1,7 @@
+id: shared-header
+name: header
+displayName: Header
+componentName: Header
+fields:
+  title: JSS Simple Blog
+  subtitle: The simple blog implementation build with Sitecore JSS

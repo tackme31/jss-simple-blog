@@ -1,0 +1,12 @@
+id: footer-external-links
+name: external-links
+displayName: External Links
+componentName: GeneralFooterBlock
+fields:
+  heading: Links
+  content: |
+    <ul>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Recruit</a></li>
+    </ul>

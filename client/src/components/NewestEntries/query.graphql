@@ -1,0 +1,13 @@
+query GetNewestEntries($count: Int) {
+  result: entries(limit: $count) {
+    entries {
+      ... on EntryPage {
+        id
+        url
+        title {
+          value
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+template: EntryPage
+fields:
+  pageTitle: Sample Entry
+  title: Lorem ipsum dolor sit amet
+  introduction: |
+    Lorem ipsum dolor sit amet, nihil placerat quo ad, sea justo interpretaris an, sit ferri moderatius ea. Nulla fastidii accusata no mea. Ut oblique prodesset vel, novum suscipit mel ex, purto ridens appetere no vis. Vim gubergren suscipiantur te. Mundi deleniti his no, mei ex temporibus cotidieque.
+    
+    Assum maluisset sea et. Tollit albucius facilisi ei has. Graeci legimus vocibus duo et, dicant rationibus ullamcorper te has. Ei nullam euripidis has. Ad lorem ubique docendi qui, et veritus deseruisse nam.  
+  body: |
+    Sea exerci signiferumque ei. Cu eum tota contentiones, eum molestie phaedrum sapientem at. At posse assum intellegebat mea. Cu vel facilis epicurei, eius labitur delenit per eu, rebum dignissim cum id. Civibus quaerendum concludaturque mei eu.
+
+    Eam ut invidunt iracundia scribentur, verear menandri id sed. Etiam accusam sea ad, ne mea partem doming, ut est phaedrum urbanitas. Duo prompta dignissim in, nec eu possim facilisi, id cum diam epicuri scriptorem. Ipsum pericula at cum. No vix tota nostrum placerat. Malis dolorum delicatissimi nam ex, ne dicam vivendo nec, movet tempor mea an.
+
+    Est populo numquam oporteat no. Adhuc persius quo ex, sea similique argumentum id, has id facer fastidii convenire. No mei possit persius, ea autem numquam nec, qui assum repudiandae ad. Sit aeterno postulant ne. Est tale facilisi eu, nam meis gloriatur ei. Mei tation prompta ea, viris dicant mediocrem eu eam, an mea labitur petentium.
+
+    Cu mazim iusto adolescens sit, at sea facete invenire ocurreret. Eam at eruditi albucius, esse sapientem salutatus est ea. Suas graeco in vim, vis et solet salutandi assueverit, hinc dicant appareat et qui. Vide omnesque eam at. Cu tincidunt appellantur his, ridens deserunt maiestatis no his. Eam ex sensibus percipitur. Ex legendos gubergren adversarium vix, in nec eros laudem volumus, est et viderer mediocritatem.
+  datetime: '2018-12-24T08:00:00.000Z'
+  tags: xConnect Tutorial
+  author:
+    - id: author-lorena-humphries
+placeholders:
+  jss-header:
+    - id: shared-header
+  jss-main:
+    - componentName: EntryDetail
+  jss-footer:
+    - componentName: SearchBox
+    - componentName: NewestEntries
+    - componentName: MonthlyArchives
+    - id: footer-external-links

@@ -1,0 +1,11 @@
+query GetMonthlyFacets {
+  result: entries(facetOn: ["month", "year"]){
+    facets {
+      name
+      values {
+        name
+        count
+      }
+    }
+  }
+}

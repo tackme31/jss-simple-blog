@@ -1,0 +1,8 @@
+id: author-lorena-humphries
+displayName: Lorena Humphries
+template: Author
+fields:
+  fullname: Lorena Humphries
+  profile: |
+    Sitecore Solutions Architect, Developer @FeedAllows.
+    I Love .NET and C#!

@@ -1,0 +1,31 @@
+query GetEntries($offset: Int, $limit: Int, $keywords: [String], $tags: [String], $archivesOn: String) {
+  result: entries(offset: $offset, limit: $limit, keywords: $keywords, tags: $tags, archivesOn: $archivesOn) {
+    entries {
+      ... on EntryPage {
+        id
+        url
+        title {
+          value
+        }
+        introduction {
+          value
+        }
+        datetime {
+          value
+        }
+        tags {
+          value
+        }
+        author {
+          targetItem {
+            ... on Author {
+              fullname {
+                value
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
